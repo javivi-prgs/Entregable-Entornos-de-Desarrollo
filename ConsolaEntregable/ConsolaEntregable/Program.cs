@@ -6,15 +6,12 @@ namespace ConsolaEntregable
     {
         static void Main(string[] args)
         {
-            // Configuración de la cultura para español de España
             CultureInfo culturaEs = new CultureInfo("es-ES");
             DateTime hoy = DateTime.Today;
 
-            // 1. Entrada de nombre completo
             Console.Write("Introduce tu nombre completo: ");
             string nombreCompleto = Console.ReadLine();
 
-            // Extracción del primer nombre usando IndexOf y Substring
             string primerNombre = nombreCompleto.Trim();
             int espacioIndex = primerNombre.IndexOf(' ');
             if (espacioIndex != -1)
@@ -22,24 +19,21 @@ namespace ConsolaEntregable
                 primerNombre = primerNombre.Substring(0, espacioIndex);
             }
 
-            // 2. Entrada y validación de fecha de nacimiento
             DateTime fechaNacimiento;
             while (true)
             {
                 Console.Write("Fecha de nacimiento (dd/MM/yyyy): ");
                 string inputFecha = Console.ReadLine();
 
-                // Validar formato y cultura
                 if (DateTime.TryParse(inputFecha, culturaEs, DateTimeStyles.None, out fechaNacimiento))
                 {
-                    // Rechazar fechas futuras
                     if (fechaNacimiento > hoy)
                     {
                         Console.WriteLine("Error: La fecha de nacimiento no puede ser en el futuro.");
                     }
                     else
                     {
-                        break; // Fecha válida
+                        break; 
                     }
                 }
                 else
@@ -51,24 +45,23 @@ namespace ConsolaEntregable
             Console.WriteLine("\n-----------------------------------------");
             Console.WriteLine($"Hola, {primerNombre}!");
 
-            // 3. Cálculo de la edad exacta
             int edad = hoy.Year - fechaNacimiento.Year;
-            // Restar un año si aún no ha llegado el día del cumple este año
+
             if (hoy < fechaNacimiento.AddYears(edad)) edad--;
             Console.WriteLine($"Tienes {edad} años.");
 
-            // 4. Fecha en formato largo
+
             string fechaLarga = fechaNacimiento.ToString("dddd, d 'de' MMMM 'de' yyyy", culturaEs);
             Console.WriteLine($"Tu cumpleaños es el {fechaLarga}.");
 
-            // 5. Signo del zodiaco (Aproximación por mes/día)
+  
             string signo = ObtenerSignoZodiaco(fechaNacimiento.Day, fechaNacimiento.Month);
             Console.WriteLine($"Tu signo del zodiaco es {signo}.");
 
-            // 6. Días hasta el próximo cumpleaños
+      
             DateTime proximoCumple = new DateTime(hoy.Year, fechaNacimiento.Month, fechaNacimiento.Day);
 
-            // Si ya pasó este año, calculamos para el año que viene
+
             if (proximoCumple < hoy) proximoCumple = proximoCumple.AddYears(1);
 
             if (proximoCumple == hoy)
@@ -86,7 +79,6 @@ namespace ConsolaEntregable
             Console.ReadKey();
         }
 
-        // Método para determinar el signo según el día y mes
         static string ObtenerSignoZodiaco(int dia, int mes)
         {
             if ((mes == 3 && dia >= 21) || (mes == 4 && dia <= 19)) return "Aries";

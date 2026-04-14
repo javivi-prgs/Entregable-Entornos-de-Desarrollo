@@ -1,0 +1,14 @@
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\bin\Debug\net8.0\ConsolaEntregable.exe
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\bin\Debug\net8.0\ConsolaEntregable.deps.json
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\bin\Debug\net8.0\ConsolaEntregable.runtimeconfig.json
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\bin\Debug\net8.0\ConsolaEntregable.dll
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\bin\Debug\net8.0\ConsolaEntregable.pdb
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.AssemblyInfoInputs.cache
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.AssemblyInfo.cs
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.csproj.CoreCompileInputs.cache
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.dll
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\refint\ConsolaEntregable.dll
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.pdb
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ConsolaEntregable.genruntimeconfig.cache
+C:\Users\Alumno1\source\repos\2025-2026 DAM 1A ED Primer Proyecto\Ejercicio Entregable\ConsolaEntregable\ConsolaEntregable\obj\Debug\net8.0\ref\ConsolaEntregable.dll
